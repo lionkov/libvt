@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svnroot/vidi/!svn/ver/2/trunk/vac
+END
+vac.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svnroot/vidi/!svn/ver/1/trunk/vac/vac.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svnroot/vidi/!svn/ver/2/trunk/vac/Makefile
+END
+unvac.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svnroot/vidi/!svn/ver/1/trunk/vac/unvac.c
+END
