@@ -239,7 +239,7 @@ vfileseek(Vfile *f, int64_t offset, int type)
 	useold = f->offset < f->size;
 	no = offset / f->dsize;
 	oo = f->offset / f->dsize;
-	for(i = 0; i < f->depth; i++) {
+	for(i = 0; i <= f->depth; i++) {
 		of[i] = no % f->psize;
 		if (useold && no==oo)
 			break;
@@ -353,7 +353,7 @@ vfilewritenolock(Vfile *f, void *buf, int buflen)
 				break;
 
 			m /= f->psize;
-			pb = f->pblocks[i+1]->buf;
+			pb = f->pblocks[i]->buf;
 			pbsz = f->psize * Vscoresize;
 		}
 	}
